@@ -1,0 +1,18 @@
+---
+title: "Diamondsfile2"
+author: "Chao Chen Yu"
+date: "3/18/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(dplyr)
+diamonds%>%
+ select(price, color, x)
+```
+
